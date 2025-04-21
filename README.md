@@ -26,7 +26,7 @@ Once you configure the module to your liking, you can begin practicing by pressi
 Each module is similar for simplicity and will display a question along with possible answers.
 The gear icon is located at the top right of the window if changes to the module configuration are needed.
 
-<img width="712" alt="image" src="https://github.com/user-attachments/assets/bf21a6a1-06df-4cdd-b3ba-ac5cd4c3e33f" />
+![image](https://github.com/user-attachments/assets/e8136f40-d428-461f-a8fe-57abb1868449)
 
 Once an answer has been selected, you will be presented with a popup to inform you of your results.
 To continue, press the "Ok" button. The modules last indefinitely until the user exits. You can see your progress at the top of the module.
