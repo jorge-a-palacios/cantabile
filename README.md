@@ -1,25 +1,45 @@
 # _cantabile_
-Jorge Palacios-Rodriguez
 
 # Project Purpose
-_cantabile_ will be a Java GUI application that helps users practice the following music theory concepts:
+_cantabile_ is a JavaFX application that helps users practice the following music theory concepts:
   + Interval Ear Training
   + Chord Ear Training
   + Melodic Dictation
   + Chord Staff Identification
   + Interval Staff Identification
-  + Interval Construction
 
 As a musician, the concepts above are important to master as they are some of the foundations for music. This program will help users drill these exercises. 
-The user will be able to select what module they'd like to work on. Each module will be customizable to include or exclude certain intervals or qualities. Each module will also track the time spent and the amount of questions answered correctly and incorrectly.
+The user will be able to select what module they'd like to work on. Each module will be customizable to include or exclude certain intervals or qualities. Each module will also track the amount of questions answered correctly and incorrectly.
 
 By building this project, not only will I benefit from deepening my understanding of music theory, but I will also benefit from understanding how to apply object-oriented programming concepts to music theory.
 
-# Initial UML Class Diagrams
-Each class will contain information with respect to what music theory concept they're covering. The initial diagrams below show how I plan to create each class relationship, along with how they'll tie to the module exercise aspect of the program.
+# User Manual
+To use this application, start the program and select any of the available modules for practice by pressing the "Launch" button.
 
-![UML Diagram 1](https://www.mermaidchart.com/raw/0ea6ece4-49a3-4e8b-8c82-1877893ba068?theme=light&version=v0.1&format=svg)
-![UML Diagram 2](https://www.mermaidchart.com/raw/6105b4a3-364b-454d-8986-c9ef57bb5135?theme=light&version=v0.1&format=svg) 
+<img width="712" alt="image" src="https://github.com/user-attachments/assets/58799efb-f428-4da4-a6af-9970c8507355" />
 
-# Plan and Estimate of Effort
-In order for this application to be functional, it will be necessary to first work on the Interval and Note classes, as they will serve as the basis for each module. Afterwards, each module should be built around these two classes and contain specific methods for calculating information relative to the specific music theory concept. A system will then be built to generate and track questions for each modules, along with recording user responses. To make this application user-friendly, the GUI (or at least, its functionality) will be built towards the end as the interface will depend on how the overall program functions. The GUI will display the modules, questions, scores, time, and notes (an offset system for note positioning will be required here depending on the type of clef selected).
+Upon selecting a module, you will be presented with a configuration screen to configure the module to include or exclude certain values.
+Once you configure the module to your liking, you can begin practicing by pressing the "Begin Module" button.
+
+<img width="712" alt="image" src="https://github.com/user-attachments/assets/72f418b5-f52e-49f0-aac8-92f79f8c72c1" />
+
+Each module is similar for simplicity and will display a question along with possible answers.
+The gear icon is located at the top right of the window if changes to the module configuration are needed.
+
+<img width="712" alt="image" src="https://github.com/user-attachments/assets/bf21a6a1-06df-4cdd-b3ba-ac5cd4c3e33f" />
+
+Once an answer has been selected, you will be presented with a popup to inform you of your results.
+To continue, press the "Ok" button. The modules last indefinitely until the user exits. You can see your progress at the top of the module.
+
+<img width="597" alt="image" src="https://github.com/user-attachments/assets/dacf881b-3e94-4f02-9c4a-c0d6fb6840da" />
+
+To exit the module and return to the main menu, simply press the "X" window icon and you will be directed back.
+<img width="712" alt="image" src="https://github.com/user-attachments/assets/58799efb-f428-4da4-a6af-9970c8507355" />
+
+
+# Implementation Manual
+These music theory concepts build upon one another, with the "root" of the program being the Note class. I used aggregation for this project, which helped greatly reduce the amount of code and allowed me to reuse multiple components. The Interval class is constructed with two Notes. The Chord class is constructed with either a Note stacked on top of an Interval, or two Intervals stacked on top of one another. For the sake of simplicity, the Module class is depicted as a single class in the UML diagram below; however, each module has it's own customizable configuration settings along with private instance data to help the program flow smoothly.
+
+![UML Diagram](https://www.mermaidchart.com/raw/0ea6ece4-49a3-4e8b-8c82-1877893ba068?theme=light&version=v0.1&format=svg)
+
+
