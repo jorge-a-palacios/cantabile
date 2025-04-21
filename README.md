@@ -13,15 +13,19 @@ This program will help users drill these exercises. The user will be able to sel
 # User Manual
 To use this application, start the program and select any of the available modules for practice by pressing the "Launch" button.
 <img width="712" alt="image" src="https://github.com/user-attachments/assets/58799efb-f428-4da4-a6af-9970c8507355" />
+
 Upon selecting a module, you will be presented with a configuration screen to configure the module to include or exclude certain values.
 Once you configure the module to your liking, you can begin practicing by pressing the "Begin Module" button.
 ![image](https://github.com/user-attachments/assets/0b36db15-27cd-43ae-8e54-a04dce01dab6)
+
 Each module is similar for simplicity and will display a question along with possible answers.
 The gear icon is located at the top right of the window if changes to the module configuration are needed.
 ![image](https://github.com/user-attachments/assets/e8136f40-d428-461f-a8fe-57abb1868449)
+
 Once an answer has been selected, you will be presented with a popup to inform you of your results.
 To continue, press the "Ok" button. The modules last indefinitely until the user exits. You can see your progress at the top of the module.
 <img width="597" alt="image" src="https://github.com/user-attachments/assets/dacf881b-3e94-4f02-9c4a-c0d6fb6840da" />
+
 To exit the module and return to the main menu, simply press the "X" window icon and you will be directed back.
 <img width="712" alt="image" src="https://github.com/user-attachments/assets/58799efb-f428-4da4-a6af-9970c8507355" />
 
