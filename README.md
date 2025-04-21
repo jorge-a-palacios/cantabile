@@ -21,7 +21,7 @@ To use this application, start the program and select any of the available modul
 Upon selecting a module, you will be presented with a configuration screen to configure the module to include or exclude certain values.
 Once you configure the module to your liking, you can begin practicing by pressing the "Begin Module" button.
 
-<img width="712" alt="image" src="https://github.com/user-attachments/assets/72f418b5-f52e-49f0-aac8-92f79f8c72c1" />
+![image](https://github.com/user-attachments/assets/0b36db15-27cd-43ae-8e54-a04dce01dab6)
 
 Each module is similar for simplicity and will display a question along with possible answers.
 The gear icon is located at the top right of the window if changes to the module configuration are needed.
